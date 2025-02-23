@@ -1,0 +1,29 @@
+.work1 {
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.work2 {
+  font-family: serif;
+  text-align: left;
+}
+
+.work3 {
+  font-family: 'Dancing Script', serif;
+}
+
+.work4 {
+  font-family: serif;
+  color: #8a2be2;
+  word-spacing: 30px;
+  text-decoration: overline wavy;
+}
+
+.work5 {
+  font-family: serif;
+  letter-spacing: 5px;
+  text-decoration: underline 0.2em;
+
+}
