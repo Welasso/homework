@@ -1,0 +1,128 @@
+body {
+  font-size: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.work {
+  background-color: #d3cbdd;
+  margin-bottom: 15.5em;
+  border-bottom: 30px;
+  height: 60.7em;
+  overflow: auto;
+  border-bottom-left-radius: 1.8em;
+  border-top-left-radius: 1.8em;
+  box-shadow: inset 3px -3px 0px 1px;
+}
+
+.work1 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work2 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work3 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work4 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work5 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work6 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work7 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work8 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work9 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.work10 {
+  width: 18.7em;
+  height: 18.7em;
+  background-color: #ffebcd;
+  box-shadow: inset 0.1em 0.1em 1em 0.1em;
+  border-radius: 1.8em;
+  padding: 0.8em;
+  margin: 0.2em;
+  display: inline-block;
+}
