@@ -1,0 +1,42 @@
+body {
+  background: #000000;
+}
+
+.container_text {
+  font-size: 3em;
+}
+
+.text {
+  color: #ffffff;
+}
+
+/* ======================================================================================= */
+
+.container {
+  background-color: #afafaf;
+  position: fixed;
+  left: 50%;
+}
+
+.header {
+  /* Прямоугольник */
+  border-radius: 7px;
+  background-color: #fff;
+  top: 7em;
+  width: 70em;
+  height: 2.5em;
+  /* ============================== */
+  position: absolute;
+}
+
+.header__text {
+  /* Кружок */
+  background-color: #1ca1b8;
+  border-radius: 100%;
+  width: 3em;
+  height: 3em;
+  /* ========================= */
+  position: absolute;
+  bottom: 1.25em;
+  left: 2.5em;
+}
