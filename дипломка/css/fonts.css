@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Readex Pro';
+    src:
+        local('Readex Pro Medium'),
+        local('ReadexPro-Medium'),
+        url('../fonts/ReadexPro-Medium.woff2') format('woff2'),
+        url('../fonts/ReadexPro-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: local('Inter 18pt Medium'), local('Inter18pt-Medium'),
+        url('../fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
