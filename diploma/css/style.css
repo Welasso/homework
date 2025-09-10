@@ -1,0 +1,654 @@
+@import "reset.css";
+@import "global.css";
+
+
+
+.body {
+  font-family: 'Inter 18pt';
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  height: 1018px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 400;
+}
+
+/* ============================================== */
+
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 0;
+}
+
+
+.nav {
+  margin-left: 12px;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav__img {
+  margin-left: 3px;
+  width: 13px;
+  margin-top: 5px;
+}
+
+.header__shop {
+  display: flex;
+  gap: 20px;
+}
+
+/* =========================================== */
+
+.swiper {
+  border-radius: 30px;
+}
+
+.section__new-window {
+  height: 550px;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #dce5e2;
+}
+
+.section__new-one {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+
+
+.section__new-text {
+  font-family: 'Readex Pro';
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 4.833vw;
+  width: auto;
+  height: auto;
+  margin: 130px 0 20px;
+}
+
+.section__new-fish {
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  width: 35vw;
+  height: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.section__new-button {
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid #000000;
+  font-family: 'Inter';
+  border-radius: 200px;
+  box-sizing: border-box;
+  padding: 14px 53px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.section__new-button {
+  margin-top: 30px;
+}
+
+.button {
+  background: #dce5e2;
+
+}
+
+.section__new-img img {
+  height: 550px;
+  margin-right: -40px;
+}
+
+
+
+.section__new-arrow-left {
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  width: auto;
+  padding: 0 18px 18px;
+  height: 26px;
+
+}
+
+.section__new-arrow-right {
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  width: auto;
+  padding: 0 18px 18px;
+  height: 26px;
+}
+
+
+
+
+.swiper-pagination-bullet {
+  position: relative;
+  border-radius: 20%;
+  width: 194px;
+  height: 2px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.swiper-pagination-bullet::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+}
+
+
+.swiper-pagination {
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  left: 20px;
+}
+
+.pagination {
+  margin-top: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+
+/* ============================================== */
+
+.electroHub__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1151px;
+  margin: 0 auto;
+  padding: 38px 145px;
+}
+
+.electroHub__shop {
+  color: #000000;
+  font-family: 'Readex Pro';
+  font-size: 42px;
+  line-height: 52.5px;
+  margin-bottom: 20px;
+}
+
+.electroHub__text {
+  color: #000000;
+  font-family: 'Readex Pro';
+  width: 628px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+
+/* ============================================== */
+
+/* ======= Сетка gadgets ======= */
+.electroHub__gadgets-header {
+  display: grid;
+  gap: 16px;
+  margin: 0 auto;
+  grid-auto-flow: column;
+}
+
+/* ======= Блок с ноутбуком ======= */
+.electroHub__gadgets-listone {
+  box-shadow: 0px 4px 35px 0px #00000040;
+  transition: all .5s ease;
+  cursor: pointer;
+  max-width: 640px;
+  width: 100%;
+}
+
+.electroHub__gadgets-macbook {
+  margin-left: 42px;
+  overflow: hidden;
+}
+
+.electroHub__gadgets-textone {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-right: 41px;
+}
+
+.electroHub__gadgets-nameone {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+  height: 77px;
+  color: #000000;
+
+  font-family: 'Readex Pro';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
+.electroHub__gadgets-nameone span {
+  max-width: 192px;
+  display: block;
+  margin-right: 42px;
+}
+
+/* ======= Блок с часами ======= */
+.electroHub__gadgets-listtwo {
+  display: flex;
+  /* width: 639px;
+  height: 270px; */
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  transform: translate(0px, 35px);
+  border-radius: 0;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+
+.electroHub__gadgets-watch {
+  height: 270px;
+  margin-left: 42px;
+}
+
+.electroHub__gadgets-texttwo {
+  width: 100%;
+  height: 20px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin: 87px 0 0 53px;
+}
+
+.electroHub__gadgets-texttwo span {
+  margin-left: 85px;
+}
+
+
+.electroHub__gadgets-nametwo {
+  width: 174.25px;
+  height: 95px;
+  color: #000000;
+
+  font-family: 'Readex Pro';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
+
+/* ======= Блок с телефоном ======= */
+.electroHub__gadgets-listthree {
+  grid-row: 1 / 4;
+  max-width: 312px;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 35px 0px #00000040;
+  border-radius: 0;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.electroHub__gadgets-phone {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.electroHub__gadgets-phone img {
+  width: 137%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateX(61px);
+}
+
+.electroHub__gadgets-texttree {
+  width: 56px;
+  height: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-top: 41px;
+}
+
+.electroHub__gadgets-nametree {
+  font-family: "Readex Pro", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  width: 250px;
+  height: 77px;
+  font-size: 28px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* ======= Блок с планшетом ======= */
+.electroHub__gadgets-listfour {
+  grid-row: 1 / 4;
+  max-width: 312px;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 35px 0px #00000040;
+  border-radius: 0;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.electroHub__gadgets-textfour {
+  width: 47px;
+  height: 20px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: .9;
+}
+
+.electroHub__gadgets-namefour {
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  color: #000000;
+  font-weight: 400;
+  line-height: 38.4px;
+  height: 77px;
+  width: 233px;
+  font-size: 32px;
+  margin-bottom: 42px;
+}
+
+/* Контейнер под планшет */
+.electroHub__gadgets-table {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.electroHub__gadgets-table img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.electroHub__gadgets-listone,
+.electroHub__gadgets-listtwo,
+.electroHub__gadgets-listthree,
+.electroHub__gadgets-listfour {
+  --scale: 1;
+  transform-origin: center center;
+  will-change: transform;
+  position: relative;
+  transition: transform .3s ease, border-radius .3s ease, box-shadow .3s ease;
+}
+
+.electroHub__gadgets-listone:hover,
+.electroHub__gadgets-listtwo:hover,
+.electroHub__gadgets-listthree:hover,
+.electroHub__gadgets-listfour:hover {
+  border-radius: 32px;
+}
+
+
+.electroHub__gadgets-listtwo {
+  transform: translate(0px, 35px) scale(var(--scale));
+}
+
+.electroHub__gadgets-listone {
+  transform: scale(var(--scale));
+}
+
+.electroHub__gadgets-listthree {
+  transform: scale(var(--scale));
+}
+
+.electroHub__gadgets-listfour {
+  transform: scale(var(--scale));
+}
+
+
+.card--active {
+  --scale: 1.1;
+  z-index: 10;
+  border-radius: 32px;
+  box-shadow: 0 10px 45px #00000040;
+}
+
+
+/* ============================================== */
+
+@media (max-width: 1300px) {
+
+  .section__new-text {
+    font-size: 36px;
+    line-height: 3.833vw;
+    margin: 145px 0 15px;
+  }
+
+  .section__new-button {
+    padding: 11px 39px;
+    font-size: 15px;
+    line-height: 21.6px;
+  }
+
+  .section__new-img {
+    width: 556px;
+  }
+
+}
+
+
+@media (max-width: 1100px) {
+
+  .section__new-img,
+  .pagination {
+    display: none;
+  }
+
+  .section__new-one {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section__new-text {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 2.833vw;
+    margin: 55px 0 15px;
+  }
+
+
+  .section__new-window {
+    height: auto;
+  }
+
+  .section__new-fish {
+    width: auto;
+  }
+
+  .section__new-button {
+    padding: 14px 33px;
+    font-size: 15px;
+    line-height: 16.6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 26px;
+  }
+
+  .section__new-one {
+    max-width: 80%;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  /* ---------------------------- */
+
+  .electroHub__gadgets-header {
+    display: inline;
+  }
+
+  .electroHub__gadgets-listone {
+    max-width: none;
+  }
+
+  /* .electroHub__gadgets-header {
+    grid-template-columns: 1fr 1fr;
+  } */
+
+
+}
+
+@media (max-width: 900px) {
+
+  .section__new-window {
+    flex-wrap: wrap;
+  }
+
+
+  .section__new-one,
+  .section__new-img {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+
+  .nav__item {
+    padding-bottom: 16px;
+  }
+
+  .nav__list {
+    display: block;
+  }
+
+  .nav__item:last-child {
+    padding-bottom: 0px;
+  }
+
+
+
+  .section__new-text {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    line-height: 1.833vw;
+    margin: 32px 0 15px;
+    line-height: 1.3em;
+  }
+
+
+
+  .section__new-button {
+    padding: 10px 25px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+
+  .section__new-one {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .header__shop {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  .header__top {
+    display: block;
+    text-align: center;
+  }
+
+  .header__top-ikon {
+    margin-bottom: 20px;
+  }
+
+  .nav__item {
+    padding-bottom: 11px;
+  }
+
+  .section__new-button,
+  .section__new-arrow-left,
+  .section__new-arrow-right {
+    display: none;
+  }
+
+  .section__new-fish {
+    padding-bottom: 45px;
+  }
+
+
+  .swiper-pagination {
+    display: flex
+  }
+
+  .swiper-pagination-bullet:first-child {
+    display: none;
+  }
+
+  .swiper-pagination-bullet {
+    width: 30vw;
+    gap: 20px;
+  }
+
+  /* ------------------------------ */
+
+  .electroHub__gadgets-header {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 400px) {}
