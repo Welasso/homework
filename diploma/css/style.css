@@ -1,0 +1,944 @@
+@import "reset.css";
+@import "global.css";
+
+
+
+.body {
+  font-family: 'Inter 18pt';
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 400;
+}
+
+/* ============================================== */
+
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 0;
+}
+
+
+.nav {
+  margin-left: 12px;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav__img {
+  margin-left: 3px;
+  width: 13px;
+  margin-top: 5px;
+}
+
+.header__shop {
+  display: flex;
+  gap: 20px;
+}
+
+/* =========================================== */
+
+.swiper {
+  border-radius: 30px;
+}
+
+.section__new-window {
+  height: 550px;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #dce5e2;
+}
+
+.section__new-one {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+
+
+.section__new-text {
+  font-family: 'Readex Pro';
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 4.833vw;
+  width: auto;
+  height: auto;
+  margin: 130px 0 20px;
+  text-wrap: balance;
+}
+
+.section__new-fish {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  width: 35vw;
+  text-wrap: balance;
+  height: auto;
+  /* overflow-wrap: break-word;
+  word-break: break-word; */
+}
+
+.section__new-button {
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid #000000;
+  font-family: 'Inter';
+  border-radius: 200px;
+  box-sizing: border-box;
+  padding: 14px 53px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.section__new-button {
+  margin-top: 30px;
+}
+
+.button {
+  background: #dce5e2;
+
+}
+
+.section__new-img img {
+  height: 550px;
+  margin-right: -85px;
+}
+
+.section__new-arrow-left {
+  cursor: pointer;
+  margin: auto;
+  width: auto;
+  padding: 0 18px 18px;
+}
+
+.section__new-arrow-right {
+  cursor: pointer;
+  margin: auto;
+  width: auto;
+  padding: 0 18px 18px;
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  border-radius: 20%;
+  width: 194px;
+  height: 2px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.swiper-pagination-bullet::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+}
+
+.swiper-pagination {
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  left: 20px;
+}
+
+.pagination {
+  margin-top: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+
+/* ============================================== */
+
+.electroHub__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1151px;
+  margin: 0 auto;
+  padding: 38px 145px;
+}
+
+.electroHub__shop {
+  color: #000000;
+  font-family: 'Readex Pro';
+  font-size: 42px;
+  line-height: 52.5px;
+  margin-bottom: 20px;
+  text-wrap: balance;
+}
+
+.electroHub__text {
+  color: #000000;
+  font-family: 'Readex Pro';
+  width: 628px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-wrap: balance;
+}
+
+
+/* ============================================== */
+
+
+.electroHub__gadgets-header {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.vertical-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.horizontal-group {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.horizontal-group>div {
+  width: 18.25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.electroHub__gadgets-listone,
+.electroHub__gadgets-listtwo,
+.electroHub__gadgets-listthree,
+.electroHub__gadgets-listfour {
+  box-shadow: 0px 4px 35px 0px #00000040;
+  cursor: pointer;
+  background: #fff;
+  transition: all .5s ease;
+  align-content: center;
+}
+
+.electroHub__gadgets-listone img,
+.electroHub__gadgets-listtwo img,
+.electroHub__gadgets-listthree img,
+.electroHub__gadgets-listfour img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: width 0.3s ease, transform 0.3s ease;
+}
+
+
+.electroHub__gadgets-textone,
+.electroHub__gadgets-texttwo,
+.electroHub__gadgets-textthree,
+.electroHub__gadgets-textfour {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter';
+  color: #000000;
+  line-height: 19.2px;
+
+}
+
+/* ----------------------------------------------- */
+
+.electroHub__gadgets-listtwo {
+  display: flex;
+  /* transform: translate(0px, 35px); */
+}
+
+.electroHub__gadgets-listthree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+.electroHub__gadgets-listfour {
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+/* ----------------------------------------------- */
+
+.electroHub__gadgets-macbook img {
+  margin-left: 40px;
+  max-width: 26.042vw;
+}
+
+.electroHub__gadgets-watch img {
+  max-width: 19.844vw;
+  display: flex;
+  margin: 0 41px;
+}
+
+.electroHub__gadgets-phone {}
+
+.electroHub__gadgets-phone img {
+  /* max-width: 21.094vw; */
+}
+
+.electroHub__gadgets-phone img {
+  object-fit: cover;
+  transform: translateX(61px);
+}
+
+.electroHub__gadgets-table img {
+  width: 32.431vw;
+  transform: translateX(-70px);
+
+}
+
+/* ----------------------------------------------- */
+
+.electroHub__gadgets-textone {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.563rem;
+}
+
+.electroHub__gadgets-texttwo {
+  font-size: 15px;
+  line-height: 19.2px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 2.626rem;
+  margin-top: 4.375rem;
+}
+
+.electroHub__gadgets-texttwo img {
+  width: 2.938rem;
+}
+
+.electroHub__gadgets-textthree {
+  margin-top: 41px;
+  font-size: 15px;
+  line-height: 19.2px;
+}
+
+.electroHub__gadgets-textfour {
+  text-align: center;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-top: 114px;
+}
+
+.electroHub__gadgets-textfour p {
+  width: 47px;
+}
+
+/* ----------------------------------------------- */
+
+.electroHub__gadgets-nameone {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.563rem;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.electroHub__gadgets-nameone p {
+  width: 192px;
+  text-align: right;
+}
+
+.electroHub__gadgets-nametwo {
+  font-family: 'Readex Pro';
+  font-size: 32px;
+  line-height: 38.4px;
+  text-align: right;
+}
+
+.electroHub__gadgets-nametwo p {
+  width: 128px;
+}
+
+.electroHub__gadgets-namethree {
+  font-size: 32px;
+  line-height: 38.4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.electroHub__gadgets-namethree p {
+  width: 250px;
+}
+
+
+
+.electroHub__gadgets-namefour {
+  font-size: 32px;
+  line-height: 38.4px;
+  margin-bottom: 42px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.electroHub__gadgets-namefour p {
+  width: 233px;
+}
+
+
+
+
+.electroHub__gadgets-listone,
+.electroHub__gadgets-listtwo,
+.electroHub__gadgets-listthree,
+.electroHub__gadgets-listfour {
+  --scale: 1;
+  transform-origin: center center;
+  will-change: transform;
+  position: relative;
+  transition: transform .3s ease, border-radius .3s ease, box-shadow .3s ease;
+}
+
+.electroHub__gadgets-listone:hover,
+.electroHub__gadgets-listtwo:hover,
+.electroHub__gadgets-listthree:hover,
+.electroHub__gadgets-listfour:hover {
+  border-radius: 32px;
+}
+
+
+.electroHub__gadgets-listtwo {
+  transform: translate(0px, 90px) scale(var(--scale));
+}
+
+.electroHub__gadgets-listone {
+  transform: scale(var(--scale));
+}
+
+.electroHub__gadgets-listthree {
+  transform: scale(var(--scale));
+}
+
+.electroHub__gadgets-listfour {
+  transform: scale(var(--scale));
+}
+
+.card--active {
+  --scale: 1.1;
+  z-index: 10;
+  border-radius: 32px;
+  box-shadow: 0 10px 45px #00000040;
+}
+
+
+/* ============================================== */
+
+.goods {
+  margin: 80px 0 80px 0;
+}
+
+.goods__title,
+.goods__text,
+.goods__name {
+  text-align: center;
+  color: #000000;
+  font-family: 'Readex Pro';
+  font-weight: 400;
+}
+
+.goods__title {
+  line-height: 52.5px;
+  font-size: 42px;
+  margin-bottom: 9px;
+}
+
+.goods__text {
+  font-size: 13px;
+  line-height: 16.8px;
+  margin-bottom: 56px;
+}
+
+.doods__button:first-child {
+  margin: 0;
+}
+
+.doods__button {
+  margin: 0 28px 0 28px;
+}
+
+.doods__button:last-child {
+  margin: 0;
+}
+
+.doods__block {
+  max-width: 304px;
+  background: #ffffff;
+}
+
+
+.goods__img {
+  margin-bottom: 38px;
+}
+
+.goods__img-mac {
+  margin-bottom: 20px;
+}
+
+.goods__name {
+  font-size: 22px;
+  line-height: 27.5px;
+  text-align: left;
+  margin-bottom: 9px;
+  max-width: 176px;
+}
+
+.goods__name-smart {
+  max-width: 240px;
+}
+
+.goods__item {
+  color: #4b4b4b;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  margin-bottom: 26px;
+  max-width: 261px;
+
+}
+
+.goods__price {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* ============================================== */
+
+.limited-edition {
+  text-align: center;
+}
+
+.limited-edition-text,
+.limited-edition-title {
+  font-family: 'Readex Pro';
+  font-weight: 400;
+  color: #000000;
+}
+
+.limited-edition-title {
+  font-size: 42px;
+  line-height: 52.5px;
+}
+
+.limited-edition-text {
+  font-size: 13px;
+  line-height: 16.8px;
+}
+
+/* ============================================== */
+
+@media (max-width: 1300px) {
+
+  .section__new-text {
+    font-size: 36px;
+    line-height: 3.833vw;
+    margin: 145px 0 15px;
+  }
+
+  .section__new-button {
+    padding: 11px 39px;
+    font-size: 15px;
+    line-height: 21.6px;
+  }
+
+  .section__new-img {
+    width: 556px;
+  }
+
+  /* ---------------------------------------- */
+
+  .electroHub__gadgets-phone img {
+    transform: none;
+  }
+
+  .electroHub__gadgets-watch img {
+    max-width: 31.844vw;
+  }
+
+  .electroHub__gadgets-macbook img {
+    margin-left: auto;
+    max-width: 30.042vw;
+  }
+
+  .electroHub__gadgets-listone img {
+    display: inline;
+  }
+
+
+  .electroHub__gadgets-listtwo {
+    display: flex;
+  }
+
+
+  .electroHub__gadgets-nameone {
+    font-size: 25px;
+    line-height: 30.4px;
+  }
+
+  .electroHub__gadgets-nametwo {
+    font-size: 25px;
+    line-height: 30.4px;
+  }
+
+  .electroHub__gadgets-namethree {
+    font-size: 25px;
+    line-height: 30.4px;
+  }
+
+  .electroHub__gadgets-namefour {
+    font-size: 25px;
+    line-height: 30.4px;
+  }
+
+
+
+  .electroHub__gadgets-nameone p {
+    width: auto;
+  }
+
+  .electroHub__gadgets-listtwo {
+    transform: none;
+  }
+
+
+}
+
+
+@media (max-width: 1100px) {
+
+
+  .section__new-img,
+  .pagination {
+    display: none;
+  }
+
+  .section__new-one {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section__new-text {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 2.833vw;
+    margin: 55px 0 15px;
+  }
+
+
+  .section__new-window {
+    height: auto;
+  }
+
+  .section__new-fish {
+    text-align: center;
+    width: auto;
+  }
+
+
+  .section__new-button {
+    padding: 14px 33px;
+    font-size: 15px;
+    line-height: 16.6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 26px;
+  }
+
+  .section__new-one {
+    max-width: 80%;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  /* ---------------------------- */
+
+  .electroHub__shop {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+
+
+  /* ---------------------------- */
+
+  .electroHub__gadgets-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .electroHub__gadgets-nametwo p {
+    width: auto;
+  }
+
+  .horizontal-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+
+  .horizontal-group>div {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .electroHub__gadgets-listone,
+  .electroHub__gadgets-listtwo,
+  .electroHub__gadgets-listthree,
+  .electroHub__gadgets-listfour {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin: 0 30px;
+  }
+
+  .electroHub__gadgets-listone img,
+  .electroHub__gadgets-listtwo img,
+  .electroHub__gadgets-listthree img,
+  .electroHub__gadgets-listfour img {
+    display: none;
+  }
+
+  .electroHub__gadgets-textone,
+  .electroHub__gadgets-textthree,
+  .electroHub__gadgets-textfour {
+    display: none;
+  }
+
+  .electroHub__gadgets-texttwo {
+    margin: auto;
+  }
+
+  .electroHub__gadgets-texttwo span {
+    display: none;
+  }
+
+
+  .electroHub__gadgets-nameone,
+  .electroHub__gadgets-namethree,
+  .electroHub__gadgets-nametwo,
+  .electroHub__gadgets-namefour {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 30.4px;
+    margin: 0%;
+    font-family: 'Inter 18pt';
+  }
+
+  .electroHub__gadgets-namefour p {
+    width: auto;
+  }
+}
+
+
+@media (max-width: 900px) {
+
+  .section__new-window {
+    flex-wrap: wrap;
+  }
+
+
+  .section__new-one,
+  .section__new-img {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+
+  .nav__item {
+    padding-bottom: 16px;
+  }
+
+  .nav__list {
+    display: block;
+  }
+
+  .nav__item:last-child {
+    padding-bottom: 0px;
+  }
+
+
+
+  .section__new-text {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    line-height: 1.833vw;
+    margin: 32px 0 15px;
+    line-height: 1.3em;
+  }
+
+
+
+  .section__new-button {
+    padding: 10px 25px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+
+  .section__new-one {
+    max-width: 70%;
+  }
+
+  /* ---------------------------------- */
+
+  .electroHub__header {
+    padding: 20px;
+  }
+
+
+
+  /* ---------------------------------- */
+  .electroHub__gadgets-listone,
+  .electroHub__gadgets-listtwo,
+  .electroHub__gadgets-listthree,
+  .electroHub__gadgets-listfour {
+    height: 80px;
+  }
+
+  .electroHub__gadgets-nameone,
+  .electroHub__gadgets-namethree,
+  .electroHub__gadgets-nametwo,
+  .electroHub__gadgets-namefour {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .header__shop {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  .header__top {
+    display: block;
+    text-align: center;
+  }
+
+  .header__top-ikon {
+    margin-bottom: 20px;
+  }
+
+  .nav__item {
+    padding-bottom: 11px;
+  }
+
+  .section__new-button,
+  .section__new-arrow-left,
+  .section__new-arrow-right {
+    display: none;
+  }
+
+  .section__new-fish {
+    padding-bottom: 45px;
+  }
+
+
+  .swiper-pagination {
+    display: flex
+  }
+
+  .swiper-pagination-bullet:first-child {
+    display: none;
+  }
+
+  .swiper-pagination-bullet {
+    width: 30vw;
+    gap: 20px;
+  }
+
+  /* ------------------------------ */
+
+
+
+  /* ------------------------------ */
+
+  .electroHub__gadgets-header {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* ------------------------------ */
+  .electroHub__gadgets-listone,
+  .electroHub__gadgets-listtwo,
+  .electroHub__gadgets-listthree,
+  .electroHub__gadgets-listfour {
+    height: 80px;
+  }
+
+  .electroHub__gadgets-nameone,
+  .electroHub__gadgets-namethree,
+  .electroHub__gadgets-nametwo,
+  .electroHub__gadgets-namefour {
+    font-size: 19px;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+
+  .electroHub__text {
+    width: auto;
+    height: auto;
+  }
+}
